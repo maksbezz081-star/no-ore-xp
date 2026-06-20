@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "no-ore-xp",
+  "version": "${version}",
+  "name": "No Ore XP",
+  "description": "Убирает опыт с руд при добыче киркой.",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "no-ore-xp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
