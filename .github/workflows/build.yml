@@ -1,5 +1,9 @@
 name: build
-on: [pull_request, push]
+on:
+  push:
+    branches: [main, develop]   # только важные ветки
+  pull_request:
+    branches: [main]            # PR в main
 jobs:
   build:
     runs-on: ubuntu-latest
